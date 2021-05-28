@@ -1,0 +1,166 @@
+/*General*/
+body {
+	margin: 0;
+	background: #1e272e;
+	height: 100%;
+}
+.MainContent {
+	margin-top: 30px;
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: row;
+	height: 1100px;
+}
+footer {
+	width: 100%;
+	height: 180px;
+	background: #2f3542;
+	border-top: 1px solid #badc58;
+}
+footer p {
+	font-size: 25px;
+	font-family: 'Poppins';
+	color: #dcdde1;
+	margin-left: 50px;
+	margin-bottom: 5px;
+}
+footer a {
+	color: #dcdde1;
+	font-size: 25px;
+	margin-right: 10px;
+}
+.Icons {
+	margin-left: 50px;
+}
+.footer-top {
+	width: 100%;
+	height: 100px;
+}
+.footer-bottom {
+	text-align: center;
+}
+.footer-bottom p {
+	color: #dcdde1;
+	font-size: 15px;
+	font-family: 'Poppins';
+}
+/*Menu style*/
+#OnPage {
+	background: #353c4d;
+}
+.Menu {
+	width: 100%;
+	height: 90px;
+	background: #2f3542;
+	display: flex;
+	flex-direction: row;
+}
+.Menu label {
+	font-size: 40px;
+	font-family: 'Pacifico';
+	color: #badc58;
+	line-height: 90px;
+	padding: 0 30px;
+}
+.Menu ul {
+	margin: 0;
+}
+.MenuList li {
+	float: left;
+	list-style: none;
+	display: block;
+	text-decoration: none;
+	width: 180px;
+	height: 90px;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Poppins';
+}
+.MenuList a {
+	position: relative;
+	top: 30%;
+	width: 180px;
+	height: 90px;
+	text-decoration: none;
+	color: #dcdde1;
+}
+.MenuList li:hover {
+	background: #394152;
+	transition: 0.3s;
+}
+.MenuList li:hover a {
+	color: #badc58;
+	text-decoration: underline;
+	transition: 0.3s;
+}
+/*Profile*/
+.Profile {
+	height: 1094px;
+	width: 580px;
+	background: #2f3542;
+	margin-left: 40px;
+	border: 1px solid #badc58;
+}
+#img {
+	width: 400px;
+	height: 500px;
+	padding: 80px 0 0 90px;
+}
+#img img {
+	width: 100%;
+	height: 100%;
+	border: 3px solid #48526b;
+	border-radius: 4px;
+}
+.Profile ul {
+	padding-left: 25px;
+}
+.Profile ul li{
+	list-style: none;
+	margin: 0;
+}
+.Profile p {
+	color: #dcdde1;
+	font-size: 30px;
+	font-family: 'Poppins';
+}
+/*InfoBlockContainer*/
+.InfoBlocksContainer {
+	margin-left: 60px;
+	width: 1080px;
+	height: 1100px;
+}
+.InfoBlock {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 350px;
+	background: #2f3542;
+	margin-bottom: 20px;
+	border: 1px solid #badc58;
+}
+.InfoBlockContent {
+	width: 100%;
+	height: 300px;
+	margin-top: 35px;
+}
+.InfoBlock h1{
+	font-size: 40px;
+	font-family: 'Maven Pro';
+	color: #dcdde1;
+	padding-left: 50px;
+	padding-top: 5px;
+	margin-bottom: 20px;
+
+}
+.InfoP {
+	width: 980px;
+	height: 20px;
+}
+.InfoBlock p {
+	font-size: 26px;
+	font-family: 'Poppins';
+	color: #dcdde1;
+	padding-left: 50px;
+
+}
